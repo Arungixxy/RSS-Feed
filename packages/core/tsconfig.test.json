@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "outDir": "./test",
+    "types": [
+      "mocha",
+      "chai",
+      "node"
+    ],
+    "target": "esnext"
+  },
+  "exclude": [],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
